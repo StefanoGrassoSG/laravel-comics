@@ -7,6 +7,7 @@
         <title>@yield('page-title')</title>
 
         @vite('resources/js/app.js')
+        @vite('resources/scss/app.scss')
         @include('partials.head-imports')
     </head>
     <body>
