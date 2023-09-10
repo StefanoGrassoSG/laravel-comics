@@ -19,6 +19,7 @@ footer {
 
     .footer-top {
         max-width: 1200px;
+        height: 100%;
         margin: auto;
         position: relative;
         z-index: 999;
@@ -60,6 +61,43 @@ footer {
                 bottom: 120px;
                 transform: rotate(-35deg);
             }
+        }
+    }
+
+    .footer-bottom {
+        background-color: lightskyblue;
+        padding: 40px 0;
+
+        .container-bottom {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sign {
+                border: 3px solid red;
+                padding: 10px;
+                cursor: pointer;
+                transition: all 0.2s linear;
+
+                &:hover {
+                    background-color: red;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            .social {
+
+                h3 {
+                    color: red;
+                }
+            }
+
         }
     }
 }
