@@ -1,5 +1,4 @@
 <header>
-<<<<<<< HEAD
     <nav>
         <div class="logo">
             <a href="http://127.0.0.1:8000/">
@@ -18,7 +17,4 @@
             @endforeach
         </ul>
     </nav>
-=======
-    HEADER
->>>>>>> 3b62eab80cee43f9a004be450b1c42f6e2084e89
 </header>

@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
     $comics = config('comics');
     $nav = config('headernav');
    
@@ -30,11 +29,4 @@ Route::get('/news', function() {
     return view('news', [
         'nav' => $nav
     ]);
-=======
-    return view('home');
-});
-
-Route::get('/about', function() {
-    return view('about');
->>>>>>> 3b62eab80cee43f9a004be450b1c42f6e2084e89
 });
