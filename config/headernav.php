@@ -2,33 +2,33 @@
 
 return [
     [
-        'name' => 'CHARACTERS'
+        'CHARACTERS' => 'CHARACTERS'
     ],
     [
-        'name' => 'COMICS'
+        'COMICS' => 'COMICS'
     ],
     [
-        'name' => 'MOVIES'
+        'MOVIES' => 'MOVIES'
     ],
     [
-        'name' => 'TV'
+        'TV' => 'TV'
     ],
     [
-        'name' => 'GAMES'
+        'GAMES' => 'GAMES'
     ],
     [
-        'name' => 'COLLECTIBLES'
+        'COLLECTIBLES' => 'COLLECTIBLES'
     ],
     [
-        'name' => 'VIDEO'
+        'VIDEO' => 'VIDEO'
     ],
     [
-        'name' => 'FANS'
+        'FANS' => 'FANS'
     ],
     [
-        'name' => 'NEWS'
+        'NEWS' => 'news'
     ],
     [
-        'name' => 'SHOP'
+        'SHOP' => 'SHOP'
     ],
 ];

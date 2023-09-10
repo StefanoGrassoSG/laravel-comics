@@ -16,10 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
     $nav = config('headernav');
-
-    return view('home');
+   
+    return view('home', [
+        'nav' => $nav
+    ]);
 });
 
-Route::get('/about', function() {
-    return view('about');
+Route::get('/news', function() {
+    $comics = config('comics');
+    $nav = config('headernav');
+   
+    return view('news', [
+        'nav' => $nav
+    ]);
 });
