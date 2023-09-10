@@ -18,7 +18,8 @@ Route::get('/', function () {
     $nav = config('headernav');
    
     return view('home', [
-        'nav' => $nav
+        'nav' => $nav,
+        'comics' => $comics
     ]);
 });
 
