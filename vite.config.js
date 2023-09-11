@@ -13,11 +13,7 @@ export default defineConfig({
     resolve: {
         alias: {
             '~resources': '/resources/',
-<<<<<<< HEAD
             //'~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
-=======
-            '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
->>>>>>> 3b62eab80cee43f9a004be450b1c42f6e2084e89
         }
     },
 });
